@@ -1,13 +1,11 @@
 apparmor: false
 arch:
-  - aarch64
-  # - amd64
-  # - armhf
-  # - armv7
+- amd64
 audio: true
-description: Fully featured Visual Studio Code (vscode) experience integrated into the Home Assistant frontend.
+description: Fully featured Visual Studio Code (vscode) experience integrated into
+  the Home Assistant frontend.
 devices:
-  - /dev/mem
+- /dev/mem
 docker_api: true
 gpio: true
 hassio_api: true
@@ -19,13 +17,13 @@ ingress_port: 9080
 ingress_stream: true
 init: false
 map:
-  - addons:rw
-  - all_addon_configs:rw
-  - backup:rw
-  - homeassistant_config:rw
-  - media:rw
-  - share:rw
-  - ssl:rw
+- addons:rw
+- all_addon_configs:rw
+- backup:rw
+- homeassistant_config:rw
+- media:rw
+- share:rw
+- ssl:rw
 name: vscode
 options:
   init_commands: []
@@ -37,7 +35,7 @@ options:
     allow_tcp_forwarding: false
     authorized_keys: []
     compatibility_mode: false
-    password: ""
+    password: ''
     sftp: false
     username: hassio
 panel_icon: mdi:microsoft-visual-studio-code
@@ -46,34 +44,35 @@ ports:
 ports_description:
   22/tcp: SSH server port (make empty to disable)
 privileged:
-  - NET_ADMIN
-  - SYS_ADMIN
-  - SYS_RAWIO
-  - SYS_TIME
-  - SYS_NICE
+- NET_ADMIN
+- SYS_ADMIN
+- SYS_RAWIO
+- SYS_TIME
+- SYS_NICE
 schema:
   config_path: str?
   init_commands:
-    - str
+  - str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   packages:
-    - str
+  - str
   ssh:
     allow_agent_forwarding: bool
     allow_remote_port_forwarding: bool
     allow_tcp_forwarding: bool
     authorized_keys:
-      - str
+    - str
     compatibility_mode: bool
     password: password
     sftp: bool
     username: str
 services:
-  - mysql:want
-  - mqtt:want
+- mysql:want
+- mqtt:want
 slug: vscode
 startup: services
 uart: true
 url: https://github.com/finleyfamily/hass-addon-vscode
 usb: true
-version: 0.0.0
+version: 3fd4b8e
+image: ghcr.io/finleyfamily/hass-addon-vscode/{arch}
