@@ -45,3 +45,6 @@ spellcheck: ## run cspell
 
 test: ## run tests
 	@echo "no tests configured for this project"
+
+update:  # manually run repository updater
+	@poetry run repository-updater --token "${GITHUB_RO_TOKEN}" --repository finleyfamily/hass-repository-edge
