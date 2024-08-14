@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@itprokyle/cspell-dict": "^1.2.5",
+    "cspell": "^8.13.3"
+  },
+  "name": "hass-repository-edge",
+  "version": "0.0.0"
+}

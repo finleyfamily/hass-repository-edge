@@ -1,0 +1,13 @@
+**/*.log
+**/.DS_Store
+**/.cache
+**/.eggs/
+**/.envrc
+**/.pytest_cache/
+**/.ruff_cache/
+**/.secrets
+**/.venv
+**/__pycache__/
+**/dist/
+**/eggs/
+**/node_modules/

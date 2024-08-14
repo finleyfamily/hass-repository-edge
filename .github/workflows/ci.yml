@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  workflows:
+    uses: finleyfamily/workflows/.github/workflows/hass-repository.ci.yml@master

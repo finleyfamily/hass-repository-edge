@@ -1,0 +1,10 @@
+{
+    "cSpell.enabled": true,
+    "editor.rulers": [
+        81,
+        88,
+        100
+    ],
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true
+}

@@ -1,0 +1,6 @@
+channel: edge
+addons:
+  vscode:
+    repository: finleyfamily/hass-addon-vscode
+    target: vscode
+    image: ghcr.io/finleyfamily/hass-addon-vscode/{arch}

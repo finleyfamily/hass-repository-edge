@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "lextudio.restructuredtext",
+        "redhat.vscode-yaml",
+        "streetsidesoftware.code-spell-checker",
+        "tamasfe.even-better-toml"
+    ]
+}
