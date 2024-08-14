@@ -49,6 +49,10 @@ repos:
     hooks:
       - id: yamlfmt
         args: [--mapping, '2', --offset, '2', --sequence, '4']
+        exclude: |
+          (?x)^(
+            (.*)?vscode/config\.yaml
+          )
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.17
     hooks:
