@@ -8,4 +8,6 @@ on:
 
 jobs:
   workflows:
+    permissions:
+      pull-requests: read
     uses: finleyfamily/workflows/.github/workflows/hass-repository.ci.yml@master
