@@ -1,8 +1,8 @@
 # EDGE - Home Assistant Add-ons
 
-![Project Stage][project-stage-shield]
-![Maintenance][maintenance-shield]
-[![License][license-shield]](LICENSE)
+![project stage][project-stage-shield]
+![maintenance][maintenance-shield]
+[![license][license-shield]](./LICENSE)
 
 ## WARNING! THIS IS AN EDGE REPOSITORY
 
@@ -50,7 +50,7 @@ The latest build commit SHA hash of each add-on, represents the version number.
 
 ## Support
 
-Open an issue here on GitHub.
+Open an [issue on GitHub][issues].
 Note, we use a separate GitHub repository for each add-on.
 Please ensure you are creating the issue on the correct GitHub repository matching the add-on.
 
@@ -71,6 +71,7 @@ We are currently not accepting third party add-ons to this repository.
 
 [addon-doc-vscode]: https://github.com/finleyfamily/hass-addon-vscode/blob/3fd4b8e/README.md
 [addon-vscode]: https://github.com/finleyfamily/hass-addon-vscode/tree/3fd4b8e
+[issues]: https://github.com/finleyfamily/hass-repository-edge/issues
 [license-shield]: https://img.shields.io/github/license/finleyfamily/hass-repository-edge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg

@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Finley Family Home Assistant Add-ons - EDGE!
+url: https://github.com/finleyfamily/hass-repository-edge
+maintainer: Kyle Finley <kyle@finley.sh>
