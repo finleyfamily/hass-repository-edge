@@ -3,6 +3,8 @@ default_language_version:
 
 exclude: |
   (?x)^(
+    (.*)?CHANGELOG\.md|
+    (.*)?README\.md|
     (.*/)?package-lock\.json|
     (.*/)?poetry\.lock
   )$
@@ -62,17 +64,7 @@ repos:
           - mdformat-gfm
           - mdformat-gfm-alerts
           - mdformat-toc
-        exclude: |
-          (?x)^(
-            (.*)?CHANGELOG\.md|
-            (.*)?README\.md
-          )
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.41.0
     hooks:
       - id: markdownlint
-        exclude: |
-          (?x)^(
-            (.*)?CHANGELOG\.md|
-            (.*)?README\.md
-          )
