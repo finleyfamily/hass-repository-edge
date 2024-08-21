@@ -1,1 +1,1 @@
-- remove digests for ghcr.io/hassio-addons/debian-base
+- fix README template, change icon
