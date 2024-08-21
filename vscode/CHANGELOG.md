@@ -1,3 +1,1 @@
-# CHANGELOG
-
-- update image versions
+- remove digests for ghcr.io/hassio-addons/debian-base

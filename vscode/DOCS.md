@@ -1,7 +1,24 @@
 # Home Assistant Add-on: vscode
 
-This add-on runs [code-server], which gives you a Visual Studio Code experience straight from the browser.
-It allows you to edit your [Home Assistant] configuration directly from your web browser, directly from within the [Home Assistant] frontend or over SSH.
+This add-on runs Visual Studio Code, allowing you to edit your [Home Assistant] configuration straight from the web browser, embedded straight into the [Home Assistant] frontend UI, or via SSH.
+
+Visual Studio Code runs as a remote server using [code-server], and is a full fledged vscode experience.
+
+## Installation
+
+The installation of this add-on is straightforward and not different in comparison to installing any other [Home Assistant] add-on.
+
+1. Click the [My Home Assistant] button below to open the add-on on your [Home Assistant] instance.
+
+   [![Open this add-on in your Home Assistant instance][addon-badge]][addon]
+
+1. Click the **Install** button to install the add-on.
+
+1. Start the **vscode** add-on.
+
+1. Check the logs of the **vscode** add-on to see if everything went well.
+
+1. Click the "OPEN WEB UI" button to open Studio Code Server.
 
 ## Configuration
 
@@ -136,10 +153,38 @@ Usernames will be converted to lower case as per recommended practices.
 ## Known issues and limitations
 
 - Can this add-on run on a Raspberry Pi? Yes, but only if you run a 64 bits operating system.
+- This add-on currently only supports AMD64 and aarch64/ARM64 machines.
+  Although ARM devices are supported, please be aware, that this add-on is quite heavy to run, and requires quite a bit of RAM.
+  It is not recommended to run it on devices with less than 4Gb of memory.
 - When SFTP is enabled, the username MUST be set to `root`.
 - If you want to use rsync for file transfer, the username MUST be set to `root`.
 
+## Changelog & Releases
+
+This repository keeps a change log using [GitHub's releases][releases] functionality.
+
+Releases are based on [Semantic Versioning][semver], and use the format of `MAJOR.MINOR.PATCH`.
+In a nutshell, the version will be incremented based on the following:
+
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
+
+## Support
+
+Got questions?
+
+Open an [issue on GitHub][issues].
+Note, we use a separate GitHub repository for each add-on.
+Please ensure you are creating the issue on the correct GitHub repository matching the add-on.
+
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=4b9bfde2_vscode&repository_url=https%3A%2F%2Fgithub.com%2Ffinleyfamily%2Fhass-repository
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [code-server]: https://github.com/coder/code-server
 [github-ssh]: https://help.github.com/articles/connecting-to-github-with-ssh/
 [home assistant]: https://www.home-assistant.io/
+[issues]: https://github.com/finleyfamily/hass-addon-vscode/issues
+[my home assistant]: https://www.home-assistant.io/integrations/my/
+[releases]: https://github.com/finleyfamily/hass-addon-vscode/releases
+[semver]: http://semver.org/spec/v2.0.0.html
 [ubuntu-packages]: https://packages.ubuntu.com
