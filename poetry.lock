@@ -799,13 +799,13 @@ files = [
 
 [[package]]
 name = "repository-updater"
-version = "2.0.0"
+version = "2.0.1"
 description = ""
 optional = false
 python-versions = "*"
 files = [
-    {file = "repository_updater-2.0.0-py3-none-any.whl", hash = "sha256:5581d64b87b3e0bc504cecc49b00368951b096e23c4f2feffe6fdcc057ed04f9"},
-    {file = "repository_updater-2.0.0.tar.gz", hash = "sha256:db19c438c533d3136127acdcb79dda7a09826c9b43f8e95e46ca10c38291e714"},
+    {file = "repository_updater-2.0.1-py3-none-any.whl", hash = "sha256:1b1df545d691c0811871687eebd7bc5d37137c247664558936fb74efa759e967"},
+    {file = "repository_updater-2.0.1.tar.gz", hash = "sha256:f71cd08875752b7284b8d9b90f0b1fbe37e46b59697c3988f5ea04bcfe6cc8d9"},
 ]
 
 [package.dependencies]
@@ -924,4 +924,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "147e1edda0608cfb64c0867a3850aa47a09ee7e709653c1e30a5c4dca96c68b0"
+content-hash = "01e16c1bdb3e32735ebc63b5475c182349db9317f8f43005fc14850d2b28aafd"
