@@ -7,7 +7,7 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.7.0"
-repository-updater = "^2.0.1"
+repository-updater = "^3.0.0"
 
 [tool.tomlsort]
 all = true
